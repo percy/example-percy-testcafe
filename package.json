@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "example-percy-testcafe",
+  "description": "Example app to show how to visual test TestCafe with Percy",
+  "repository": "https://github.com/percy/example-percy-testcafe",
+  "keywords": [
+    "testcafe",
+    "percy",
+    "visual testing"
+  ],
+  "author": "Perceptual Inc.",
+  "license": "MIT",
+  "scripts": {
+    "test": "percy exec -- node run-tests.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@percy/testcafe": "^0.1.0",
+    "http-server": "^0.11.1",
+    "testcafe": "^1.3.3",
+    "todomvc-app-css": "^2.2.0",
+    "todomvc-common": "^1.0.5"
+  }
+}
