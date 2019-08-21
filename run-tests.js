@@ -13,7 +13,7 @@ const server = httpServer.createServer();
 server.listen(port);
 console.log(`Server is listening on http://localhost:${port}`);
 
-const tests = spawn(cmd, ["chrome", "tests/"], {
+const tests = spawn(cmd, ["chrome", "tests/", "--no-sandbox"], {
   stdio: "inherit",
   windowsVerbatimArguments: true
 });
