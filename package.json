@@ -11,14 +11,13 @@
   "author": "Perceptual Inc.",
   "license": "MIT",
   "scripts": {
-    "test": "percy exec -- node run-tests.js"
+    "test": "percy exec -- testcafe chrome:headless tests"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@percy/testcafe": "^0.1.0",
+    "@percy/cli": "^1.0.0-beta.42",
+    "@percy/testcafe": "^1.0.0-beta.4",
     "http-server": "^0.11.1",
     "testcafe": "^1.3.3",
-    "todomvc-app-css": "^2.2.0",
-    "todomvc-common": "^1.0.5"
+    "todomvc-app-css": "^2.2.0"
   }
 }
