@@ -14,10 +14,12 @@
     "test": "percy exec -- testcafe chrome:headless tests"
   },
   "devDependencies": {
-    "@percy/cli": "^1.1.1",
-    "@percy/testcafe": "^1.0.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@percy/cli": "^1.30.11",
+    "@percy/testcafe": "^1.0.4",
     "http-server": "^0.11.1",
-    "testcafe": "^1.3.3",
+    "testcafe": "^3.7.2",
     "todomvc-app-css": "^2.2.0"
   }
 }
