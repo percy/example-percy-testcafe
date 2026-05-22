@@ -1,0 +1,15 @@
+{
+  "name": "example-percy-testcafe-advanced",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:advanced": "percy exec -- testcafe chrome:headless tests",
+    "test:advanced:ci": "PERCY_TOKEN=fake_token percy exec --testing -- testcafe chrome:headless tests"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.31.13",
+    "@percy/testcafe": "^1.0.4",
+    "http-server": "^14.1.1",
+    "testcafe": "^3.7.2"
+  }
+}
