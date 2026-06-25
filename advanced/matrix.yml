@@ -1,0 +1,47 @@
+# PER-8195 Phase 3 — TestCafe matrix-row mapping.
+
+sdk: testcafe
+package: '@percy/testcafe'
+language: javascript
+sdk_min_version: '1.0.4'
+cli_min_version: '1.31.13'
+
+rows:
+  - id: widths
+    state: covered
+  - id: percy_css
+    state: covered
+  - id: min_height
+    state: covered
+  - id: enable_javascript
+    state: covered
+  - id: responsive_snapshot_capture
+    state: covered
+  - id: labels
+    state: covered
+  - id: test_case
+    state: covered
+  - id: device_pixel_ratio
+    state: covered
+  - id: browsers
+    state: covered
+  - id: readiness_preset
+    state: covered
+
+  - id: scope
+    state: planned
+  - id: discovery
+    state: planned
+  - id: dom_transformation
+    state: planned
+  - id: regions
+    state: planned
+  - id: sync
+    state: planned
+
+  - id: env_percy_server_address
+    state: covered
+  - id: percy_yml_global_config
+    state: covered
+  - id: environment_info_reporting
+    state: covered
