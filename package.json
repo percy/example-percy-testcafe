@@ -19,7 +19,7 @@
     "@percy/cli": "^1.30.11",
     "@percy/testcafe": "^1.0.4",
     "http-server": "^0.11.1",
-    "testcafe": "^3.7.2",
+    "testcafe": "^3.7.5",
     "todomvc-app-css": "^2.2.0"
   }
 }
